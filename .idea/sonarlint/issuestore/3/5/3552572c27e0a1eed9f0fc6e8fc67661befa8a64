@@ -1,0 +1,10 @@
+
+m	java:S1169"SRename this field "img_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„±”¤ûÿÿÿÿ
+n	java:S116:"RRename this field "tv_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€‘°…8½½ÝÅÓ/
+q	java:S116:"URename this field "tv_content" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€‘°…8½½ÝÅÓ/
+n	java:S116:"RRename this field "tv_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€‘°…8¾½ÝÅÓ/
+d
+java:S1659:"GDeclare "tv_content" and all following declarations on a separate line.(€‘°…8À½ÝÅÓ/
+~
+java:S1488K"\Immediately return this expression instead of assigning it to the temporary variable "date".(Òà‡äùÿÿÿÿ8Ë½ÝÅÓ/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôƒáºùÿÿÿÿ

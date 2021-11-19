@@ -1,0 +1,7 @@
+
+\
+java:S1874G":Remove this use of "getAdapterPosition"; it is deprecated.(à±™¾ÿÿÿÿÿ8ËŸÚÅÓ/
+Q	java:S125O"<This block of commented-out lines of code should be removed.(‹ø×
+>
+java:S1604C"(Make this anonymous inner class a lambda(ú“Úå
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôƒáºùÿÿÿÿ
