@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.aws.blogapp">
+    package="com.example.rodriguez.blogapp">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,9 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.RegisterActivity" />
-        <activity android:name=".Activities.HomeActivity" />
-        <activity android:name=".Activities.LoginActivity">
+        <activity android:name="com.example.rodriguez.blogapp.Activities.RegisterActivity" />
+        <activity android:name="com.example.rodriguez.blogapp.Activities.HomeActivity" />
+        <activity android:name="com.example.rodriguez.blogapp.Activities.LoginActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,10 +23,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activities.Home"
+            android:name="com.example.rodriguez.blogapp.Activities.Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Activities.PostDetailActivity"></activity>
+        <activity android:name="com.example.rodriguez.blogapp.Activities.PostDetailActivity"></activity>
     </application>
 
 </manifest>
