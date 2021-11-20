@@ -12,21 +12,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.rodriguez.blogapp.Activities.RegisterActivity" />
-        <activity android:name="com.example.rodriguez.blogapp.Activities.HomeActivity" />
-        <activity android:name="com.example.rodriguez.blogapp.Activities.LoginActivity"
-            android:exported="true">
+        <activity android:name=".activities.RegisterActivity" />
+        <activity android:name=".activities.HomeActivity" />
+        <activity
+            android:name=".activities.HomeFunctionalActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.PostDetailActivity" />
+        <activity android:name=".activities.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.rodriguez.blogapp.Activities.Home"
-            android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.rodriguez.blogapp.Activities.PostDetailActivity"></activity>
     </application>
 
 </manifest>

@@ -9,6 +9,7 @@
         <entry key="app/src/main/res/layout/activity_post_detail.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/popup_add_post.xml" value="0.10612968591691996" />
       </map>
     </option>
   </component>
